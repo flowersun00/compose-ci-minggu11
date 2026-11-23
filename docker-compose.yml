@@ -1,6 +1,6 @@
 services:
   db_mysql:
-   image: mariadb:11
+    image: mariadb:11
     environment:
       MYSQL_ROOT_PASSWORD: ${MYSQL_ROOT_PASSWORD}
       MYSQL_DATABASE: ${MYSQL_DATABASE}
